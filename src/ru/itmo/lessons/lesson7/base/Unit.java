@@ -9,6 +9,7 @@ abstract public class Unit {
     /* доступ к свойству из текущего класса + дочерних классов */
     protected int healthScore;
     private int maxHealthScore;
+
     public Unit(int healthScore){
         if (healthScore < 1) {
             throw new IllegalArgumentException("Здоровье дб положительным");

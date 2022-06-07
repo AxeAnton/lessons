@@ -9,6 +9,7 @@ import ru.itmo.lessons.lesson7.Knight;
 // new BattleUnit
 abstract public class BattleUnit extends Unit implements AttackAble{
     protected int attackScore;
+
     public BattleUnit(int healthScore, int attackScore){
         super(healthScore); /* вызов конструктора родителя */
         if (attackScore < 1) {
